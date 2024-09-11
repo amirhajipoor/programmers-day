@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.amirhajipoor.ir" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.amirhajipoor.ir/iranyekanx/fonts.css"
+        />
+        <title>روز برنامه نویس مبارک</title>
+    </head>
+    <body>
+      <canvas id="canvas" class="absolute z-0 hidden"></canvas>
+        <div
+            id="app"
+            class="flex items-center justify-center h-screen bg-gradient-to-br from-indigo-800 to-indigo-950 z-20"
+        >
+            <div>
+                <div
+                    id="message"
+                    class="bg-white/80 rounded-lg shadow-md p-4 lg:p-6 w-[380px] hidden"
+                >
+                    <div>
+                        <img
+                            class="w-8 inline ml-2"
+                            src="./public/assets/party-popper.png"
+                            loading="lazy"
+                            alt="greeting"
+                        />
+                        <h1 class="font-bold text-xl text-slate-950 inline">
+                            روز برنامه‌نویس مبارک!
+                        </h1>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-slate-700 leading-7">
+                            دانشجوی مهندسی کامپیوتر دانشگاه شهید رجایی، روزت
+                            مبارک! امیدوارم همیشه کد‌هات بدون خطا ران بشه و
+                            واحدات پاس 😉...
+                        </p>
+                    </div>
+                </div>
+                <button
+                    class="bg-white/10 rounded-lg shadow-sm backdrop-blur-lg px-5 py-2.5 text-white hover:bg-white/20 duration-300 ease-in-out hover:scale-105"
+                >
+                    روی من کلیک کن!
+                </button>
+            </div>
+        </div>
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>
